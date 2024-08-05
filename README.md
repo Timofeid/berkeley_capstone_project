@@ -117,6 +117,18 @@ The following key findings were observed:
 3.	***Challenges and Limitations:***
 	- The uniformity in performance metrics across all models suggests potential issues such as imbalanced data, insufficient feature engineering, or inadequate model tuning. These challenges may have hindered the models’ ability to learn meaningful patterns from the data.
 
+### Model result comparison
+|                     | Accuracy | Precision | Recall   | F1 Score | ROC AUC  | Training Time |
+|---------------------|----------|-----------|----------|----------|----------|---------------|
+| SVM                 | 0.788417 | 0.787623  | 1.000000 | 0.881196 | 0.508677 | 1.949005      |
+| Dummy Classifier    | 0.784680 | 0.784680  | 1.000000 | 0.879351 | 0.500000 | 0.023577      |
+| Logistic Regression | 0.784680 | 0.784680  | 1.000000 | 0.879351 | 0.500000 | 0.036117      |
+| Random Forest       | 0.784680 | 0.784680  | 1.000000 | 0.879351 | 0.500000 | 0.132739      |
+| XGBoost             | 0.784680 | 0.784680  | 1.000000 | 0.879351 | 0.500000 | 0.211433      |
+| KNN                 | 0.773470 | 0.783041  | 0.983929 | 0.872065 | 0.495218 | 0.020973      |
+| Decision Tree       | 0.748716 | 0.779354  | 0.948214 | 0.855532 | 0.484953 | 0.042830      |
+
+
 ## Next steps
 To address the limitations encountered and improve the model’s predictive capabilities, the following recommendations are proposed:
 
